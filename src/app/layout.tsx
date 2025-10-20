@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import WhatsAppFab from "@/components/WhatsAppFab";
 
 export const metadata = {
-  title: "Valenet — Internet Fibra",
+  title: "Vale Net — Internet Fibra",
   description: "Provedor de internet com planos rápidos e suporte humano.",
 };
 

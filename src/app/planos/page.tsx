@@ -38,7 +38,7 @@ export default function PlanosPage() {
       <div className={styles.container}>
         <section className={styles.hero}>
           <h1 className={styles.title}>
-            Planos Valenet
+            Planos Vale Net
             <span className={styles.highlight}> — Escolha a melhor tecnologia</span>
           </h1>
           <p className={styles.subtitle}>
@@ -68,7 +68,7 @@ export default function PlanosPage() {
                 A tecnologia mais avançada disponível. Transmissão por luz através de cabos de vidro ultra-finos.
               </p>
               <ul className={styles.features}>
-                <li>✓ Velocidades superiores (até 1 Gbps)</li>
+                <li>✓ Velocidades superiores </li>
                 <li>✓ Latência ultra-baixa</li>
                 <li>✓ Máxima estabilidade</li>
                 <li>✓ Ideal para streaming 4K</li>

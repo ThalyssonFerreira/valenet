@@ -4,7 +4,7 @@ export default function Sobre() {
   return (
     <main className={styles.container}>
       <section className={styles.hero}>
-        <h1 className={styles.title}>Sobre a Valenet</h1>
+        <h1 className={styles.title}>Sobre a Vale Net</h1>
         <p className={styles.subtitle}>
           Conectando pessoas e empresas com internet de qualidade.
           Nossa missão é levar tecnologia de ponta com suporte humano.

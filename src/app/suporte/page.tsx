@@ -1,10 +1,11 @@
 "use client";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function SuportePage() {
   const telefoneSomenteDigitos = "559985205448";
   const whatsUrl = `https://wa.me/${telefoneSomenteDigitos}?text=${encodeURIComponent(
-    "Olá! Preciso de suporte técnico da Valenet."
+    "Olá! Preciso de suporte técnico da Vale Net."
   )}`;
 
   const dicasUteis = [
@@ -94,9 +95,9 @@ export default function SuportePage() {
             e receba atendimento especializado.
           </p>
           <div className={styles.actionsCenter}>
-            <a href={whatsUrl} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+            <Link href={whatsUrl} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
               Falar com Suporte
-            </a>
+            </Link>
           </div>
           <p className={styles.note}>
             💡 Dica: Ao entrar em contato, informe seu CPF/CNPJ e número do contrato para um atendimento mais rápido.
@@ -112,9 +113,9 @@ export default function SuportePage() {
               <p className={styles.outroTexto}>
                 Ligue diretamente para nossa equipe técnica
               </p>
-              <a href={`tel:${telefoneSomenteDigitos}`} className={styles.outroLink}>
+              <Link href={`tel:${telefoneSomenteDigitos}`} className={styles.outroLink}>
                 (99) 8520-5448
-              </a>
+              </Link>
             </div>
             <div className={styles.outroCard}>
               <div className={styles.outroIcon}>📍</div>
@@ -122,9 +123,9 @@ export default function SuportePage() {
               <p className={styles.outroTexto}>
                 Visite nosso escritório em Vale Verde - MA
               </p>
-              <a href="/contato" className={styles.outroLink}>
+              <Link href="/contato" className={styles.outroLink}>
                 Ver endereço
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Page() {
   const faqs = [
@@ -14,7 +15,7 @@ export default function Page() {
       a: "Sim. Com equipamentos alinhados e bom sinal entre a torre e sua residência, a experiência é consistente para navegação, aulas e videochamadas. Em cenários de muita obstrução, indicamos avaliar a fibra.",
     },
     {
-      q: "Quais velocidades a Valenet oferece?",
+      q: "Quais velocidades a Vale Net oferece?",
       a: "Trabalhamos com faixas que atendem desde uso essencial até alto desempenho. Confira detalhes e disponibilidade em Planos.",
     },
     {
@@ -36,20 +37,20 @@ export default function Page() {
           <div className={styles.heroContent}>
             <h1 className={styles.title}>
               Conecte-se com o futuro
-              <span className={styles.highlight}> com a Valenet</span>
+              <span className={styles.highlight}> com a Vale Net</span>
             </h1>
             <p className={styles.subtitle}>
               Internet ultraveloz e estável, com suporte sempre que você precisar. Escolha o plano perfeito para sua casa ou empresa e sinta a diferença.
             </p>
             <div className={styles.actions}>
-              <a href="/planos" className={styles.btnPrimary}>Ver planos</a>
-              <a href="/suporte" className={styles.btnSecondary}>Ir para suporte</a>
+              <Link href="/planos" className={styles.btnPrimary}>Ver planos</Link>
+              <Link href="/suporte" className={styles.btnSecondary}>Ir para suporte</Link>
             </div>
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Soluções Valenet</h2>
+          <h2 className={styles.sectionTitle}>Soluções Vale Net</h2>
           <p className={styles.sectionText}>
             Atendemos com fibra óptica e internet via rádio. Duas tecnologias, um objetivo: sua conexão funcionando bem todos os dias.
           </p>
@@ -88,11 +89,11 @@ export default function Page() {
         <section className={styles.pitch}>
           <h2 className={styles.pitchTitle}>Internet lenta?</h2>
           <p className={styles.pitchText}>
-            Vem pra Valenet. Faça streaming sem travar, jogue com baixa latência e trabalhe com videochamadas estáveis.
+            Vem pra Vale Net. Faça streaming sem travar, jogue com baixa latência e trabalhe com videochamadas estáveis.
           </p>
           <div className={styles.actionsCenter}>
-            <a href="/planos" className={styles.btnPrimary}>Contratar agora</a>
-            <a href="/suporte" className={styles.btnOutline}>Central de suporte</a>
+            <Link href="/planos" className={styles.btnPrimary}>Contratar agora</Link>
+            <Link href="/suporte" className={styles.btnOutline}>Central de suporte</Link>
           </div>
         </section>
 
@@ -128,7 +129,7 @@ export default function Page() {
             Entre em contato e tire suas dúvidas. Nossa equipe orienta a melhor tecnologia para seu endereço.
           </p>
           <div className={styles.actionsCenter}>
-            <a href="/contato" className={styles.btnSecondary}>Falar com a Valenet</a>
+            <a href="/contato" className={styles.btnSecondary}>Falar com a Vale Net</a>
            
           </div>
         </section>

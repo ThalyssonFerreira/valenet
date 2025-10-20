@@ -1,8 +1,8 @@
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Termos de Uso — Valenet",
-  description: "Termos e condições de uso dos serviços da Valenet.",
+  title: "Termos de Uso — Vale Net",
+  description: "Termos e condições de uso dos serviços da Vale Net.",
 };
 
 export default function TermosPage() {
@@ -20,14 +20,14 @@ export default function TermosPage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>1. Aceitação dos Termos</h2>
             <p>
-              Ao acessar e utilizar os serviços da <strong>Valenet</strong> ("nós", "nosso" ou "empresa"), você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não deve utilizar nossos serviços.
+              Ao acessar e utilizar os serviços da <strong>Vale Net</strong>(&quot;nós&quot;, &quot;nosso&quot; ou &quot;empresa&quot;), você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não deve utilizar nossos serviços.
             </p>
           </div>
 
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>2. Descrição dos Serviços</h2>
             <p>
-              A Valenet oferece serviços de internet banda larga através de tecnologias de fibra óptica e via rádio, incluindo:
+              A Vale Net oferece serviços de internet banda larga através de tecnologias de fibra óptica e via rádio, incluindo:
             </p>
             <ul>
               <li>Internet banda larga residencial e empresarial</li>
@@ -81,7 +81,7 @@ export default function TermosPage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>5. Velocidade e Disponibilidade</h2>
             <p>
-              A Valenet se compromete a fornecer o melhor serviço possível, porém:
+              A Vale Net se compromete a fornecer o melhor serviço possível, porém:
             </p>
             <ul>
               <li>A velocidade pode variar devido a fatores técnicos, climáticos ou de rede</li>
@@ -100,7 +100,7 @@ export default function TermosPage() {
 
             <h3 className={styles.subsectionTitle}>6.2. Equipamentos</h3>
             <p>
-              Os equipamentos fornecidos pela Valenet permanecem de propriedade da empresa. O cliente é responsável pelo cuidado adequado dos equipamentos e deve reportar qualquer dano ou defeito.
+              Os equipamentos fornecidos pela Vale Net permanecem de propriedade da empresa. O cliente é responsável pelo cuidado adequado dos equipamentos e deve reportar qualquer dano ou defeito.
             </p>
           </div>
 
@@ -125,7 +125,7 @@ export default function TermosPage() {
               O cliente pode solicitar o cancelamento a qualquer momento, observando as condições contratuais, incluindo possíveis multas ou taxas de cancelamento.
             </p>
 
-            <h3 className={styles.subsectionTitle}>8.2. Cancelamento pela Valenet</h3>
+            <h3 className={styles.subsectionTitle}>8.2. Cancelamento pela Vale Net</h3>
             <p>
               Podemos cancelar o serviço em caso de:
             </p>
@@ -140,7 +140,7 @@ export default function TermosPage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>9. Limitação de Responsabilidade</h2>
             <p>
-              A Valenet não será responsável por:
+              A Vale Net não será responsável por:
             </p>
             <ul>
               <li>Danos indiretos, incidentais ou consequenciais</li>
@@ -154,7 +154,7 @@ export default function TermosPage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>10. Propriedade Intelectual</h2>
             <p>
-              Todo o conteúdo do site, incluindo textos, imagens, logotipos e design, é propriedade da Valenet e protegido por leis de propriedade intelectual. É proibida a reprodução sem autorização prévia.
+              Todo o conteúdo do site, incluindo textos, imagens, logotipos e design, é propriedade da Vale Net e protegido por leis de propriedade intelectual. É proibida a reprodução sem autorização prévia.
             </p>
           </div>
 
@@ -192,10 +192,10 @@ export default function TermosPage() {
               Para questões sobre estes Termos de Uso, entre em contato:
             </p>
             <div className={styles.contactBox}>
-              <p><strong>Valenet</strong></p>
+              <p><strong>Vale Net</strong></p>
               <p>BR 230, Vale Verde - MA</p>
               <p>Telefone: (99) 8520-5448</p>
-              <p>E-mail: contato@valenet.com.br</p>
+              <p>E-mail: vale.nets00@gmail.com</p>
             </div>
           </div>
         </section>

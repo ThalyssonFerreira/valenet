@@ -5,7 +5,7 @@ export default function ContatosPage() {
   const telefoneExibicao = "(99) 8520-5448";
   const telefoneSomenteDigitos = "559985205448";
   const whatsUrl = `https://wa.me/${telefoneSomenteDigitos}?text=${encodeURIComponent(
-    "Olá! Preciso de suporte técnico da Valenet."
+    "Olá! Preciso de suporte técnico da Vale Net."
   )}`;
 
   const lat = -7.14877827542609;
@@ -19,7 +19,7 @@ export default function ContatosPage() {
     <div className={styles.page}>
       <main className={styles.container}>
         <header className={styles.header}>
-          <h1 className={styles.title}>Contatos — Valenet</h1>
+          <h1 className={styles.title}>Contatos — Vale Net</h1>
           <p className={styles.subtitle}>Atendimento técnico direto e, se desejar, presencial em nosso escritório.</p>
         </header>
 
@@ -48,7 +48,7 @@ export default function ContatosPage() {
           <section className={`${styles.card} ${styles.centerCard}`}>
             <h2 className={styles.sectionTitle}>Atendimento no escritório</h2>
             <p className={`${styles.lead} ${styles.centerText}`}>
-              Prefere atendimento presencial? Você pode ser atendido em nosso escritório. Para uma experiência melhor, recomendamos agendar a visita.
+              Prefere atendimento presencial? Você pode ser atendido em nosso escritório.
             </p>
 
             <h3 className={styles.sectionTitle}>Endereço</h3>
@@ -64,7 +64,7 @@ export default function ContatosPage() {
 
             <div className={`${styles.mapBox}`}>
               <iframe
-                title="Mapa Valenet"
+                title="Mapa Vale Net"
                 className={styles.mapFrame}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

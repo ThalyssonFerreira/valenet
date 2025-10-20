@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,9 +9,9 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.brand}>
-            <h3 className={styles.brandTitle}>Valenet</h3>
+            <h3 className={styles.brandTitle}>Vale Net</h3>
             <p className={styles.brandText}>
-              Conectando pessoas e empresas com internet de qualidade.
+              A qualidade faz a diferença.
             </p>
           </div>
 
@@ -18,19 +19,19 @@ export default function Footer() {
             <div className={styles.linkGroup}>
               <h4 className={styles.linkTitle}>Navegação</h4>
               <ul className={styles.linkList}>
-                <li><a href="/">Início</a></li>
-                <li><a href="/planos">Planos</a></li>
-                <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contato</a></li>
-                <li><a href="/suporte">Suporte</a></li>
+                <li><Link href="/">Início</Link></li>
+                <li><Link href="/planos">Planos</Link></li>
+                <li><Link href="/sobre">Sobre</Link></li>
+                <li><Link href="/contato">Contato</Link></li>
+                <li><Link href="/suporte">Suporte</Link></li>
               </ul>
             </div>
 
             <div className={styles.linkGroup}>
               <h4 className={styles.linkTitle}>Legal</h4>
               <ul className={styles.linkList}>
-                <li><a href="/termos">Termos de Uso</a></li>
-                <li><a href="/privacidade">Política de Privacidade</a></li>
+                <li><Link href="/termos">Termos de Uso</Link></li>
+                <li><Link href="/privacidade">Política de Privacidade</Link></li>
               </ul>
             </div>
 
@@ -38,15 +39,18 @@ export default function Footer() {
               <h4 className={styles.linkTitle}>Contato</h4>
               <ul className={styles.linkList}>
                 <li>
-                  <a href="tel:559985205448">(99) 8520-5448</a>
+                  <a href="https://wa.me/559985205448">(99) 8520-5448</a>
                 </li>
                 <li>
-                  <a href="https://wa.me/559985205448" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/559985205448" target="_blank" rel="noopener noreferrer">
                     WhatsApp
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contato">Ver endereço</a>
+                    <Link href="mailto:vale.nets00@gmail.com">vale.nets00@gmail.com</Link>
+                </li>
+                <li>
+                  <Link href="/contato">Ver endereço</Link>
                 </li>
               </ul>
             </div>
@@ -55,7 +59,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © {currentYear} Valenet. Todos os direitos reservados.
+            © {currentYear} Vale Net. Todos os direitos reservados.
           </p>
         </div>
       </div>

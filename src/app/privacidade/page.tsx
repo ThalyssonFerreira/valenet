@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Política de Privacidade — Valenet",
+  title: "Política de Privacidade — Vale Net",
   description: "Política de privacidade e proteção de dados da Valenet.",
 };
 
@@ -20,8 +20,9 @@ export default function PrivacidadePage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>1. Introdução</h2>
             <p>
-              A <strong>Valenet</strong> ("nós", "nosso" ou "empresa") está comprometida em proteger a privacidade e os dados pessoais de nossos clientes e visitantes. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações pessoais.
+              A <strong>Valenet</strong> (&quot;nós&quot;, &quot;nosso&quot; ou &quot;empresa&quot;) está comprometida em proteger a privacidade...
             </p>
+
           </div>
 
           <div className={styles.section}>
@@ -134,7 +135,7 @@ export default function PrivacidadePage() {
               Para exercer seus direitos ou esclarecer dúvidas sobre esta Política de Privacidade, entre em contato conosco:
             </p>
             <div className={styles.contactBox}>
-              <p><strong>Valenet</strong></p>
+              <p><strong>Vale Net</strong></p>
               <p>BR 230, Vale Verde - MA</p>
               <p>Telefone: (99) 8520-5448</p>
               <p>E-mail: contato@valenet.com.br</p>
