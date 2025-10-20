@@ -138,14 +138,14 @@ export default function PrivacidadePage() {
               <p><strong>Vale Net</strong></p>
               <p>BR 230, Vale Verde - MA</p>
               <p>Telefone: (99) 8520-5448</p>
-              <p>E-mail: contato@valenet.com.br</p>
+              <p>E-mail: vale.nets00@gmail.com</p>
             </div>
           </div>
 
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>14. Encarregado de Dados (DPO)</h2>
             <p>
-              Nomeado um Encarregado de Proteção de Dados (DPO) conforme exigido pela LGPD. Para contato direto com o DPO, utilize o e-mail: dpo@valenet.com.br
+              Nomeado um Encarregado de Proteção de Dados (DPO) conforme exigido pela LGPD. Para contato direto com o DPO, utilize o e-mail: vale.nets00@gmail.com
             </p>
           </div>
         </section>
