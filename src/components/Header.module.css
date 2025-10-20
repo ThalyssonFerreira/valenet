@@ -1,0 +1,75 @@
+.root{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background:
+    linear-gradient(180deg, #fff, color-mix(in srgb, var(--accent) 6%, #fff));
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border));
+  backdrop-filter: saturate(1.05) blur(4px);
+}
+
+.inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+.brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.logo{ width: 32px; height: 32px; display:block; }
+.brandName{
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: .2px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--primary) 65%, var(--accent)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav{
+  display: flex;
+  gap: 6px;
+}
+
+.link{
+  --hover-bg: color-mix(in srgb, var(--accent) 10%, #fff);
+  --active-bg: color-mix(in srgb, var(--primary) 12%, #fff);
+
+  text-decoration: none;
+  color: var(--text);
+  opacity: .92;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background-color .15s ease, opacity .15s ease, color .15s ease, box-shadow .2s ease;
+  outline: none;
+}
+.link:hover{ background: var(--hover-bg); opacity: 1; }
+.link:focus-visible{
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 20%, #fff);
+}
+
+.link[data-active="true"]{
+  background: var(--active-bg);
+}
+.link[data-active="true"]::after{
+  content:"";
+  display:block;
+  height:3px;
+  border-radius:999px;
+  background: linear-gradient(90deg, var(--accent), var(--primary));
+  margin-top: 4px;
+}
+
+@media (max-width: 640px){
+  .inner{ padding: 10px 16px; }
+  .nav{ gap: 4px; }
+  .link{ padding: 8px 10px; }
+}

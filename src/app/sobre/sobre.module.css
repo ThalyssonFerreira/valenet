@@ -1,0 +1,12 @@
+.container { font-family:'Inter',sans-serif; color:#222; background:#fafafa; line-height:1.6; }
+.hero { text-align:center; padding:100px 20px 120px; background:#3b63f3; color:#fff; border-radius:0 0 60px 60px; margin-bottom:40px;}
+.title { font-size:3rem; font-weight:800; margin-bottom:16px; }
+.subtitle { font-size:1.2rem; max-width:680px; margin:0 auto; opacity:0.9; }
+.sectionTitle { font-size:2rem; font-weight:700; margin-bottom:16px; text-align:center; color:#222;}
+.sectionText { font-size:1rem; color:#666; max-width:700px; margin:0 auto 50px; text-align:center; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px; margin-top:32px;}
+.card { background:#fff; border-radius:16px; padding:24px; border:1px solid #e3e3e3; box-shadow:0 6px 20px rgba(0,0,0,0.05); transition:all 0.3s ease; text-align:center;}
+.card:hover { transform:translateY(-5px); box-shadow:0 12px 25px rgba(0,0,0,0.08);}
+.icon { font-size:2rem; margin-bottom:12px; color:#3b63f3;}
+.card strong { display:block; font-size:1.2rem; margin-bottom:8px; }
+.card p { color:#666; font-size:1rem; }

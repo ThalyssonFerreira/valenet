@@ -1,0 +1,36 @@
+.fab{
+  position: fixed;
+  right: clamp(16px, 2vw, 24px);
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 9999;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 70%, #ffffff));
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow:
+    0 12px 30px rgba(0,0,0,.18),
+    0 0 0 4px color-mix(in srgb, var(--accent) 14%, #ffffff);
+  transition: transform .12s ease, box-shadow .25s ease, filter .2s ease;
+}
+
+.fab:hover{ transform: translateY(-2px) scale(1.03); }
+.fab:active{ transform: translateY(0) scale(.98); }
+
+.icon{
+  width: 26px;
+  height: 26px;
+}
+
+@media (max-width: 420px){
+  .fab{ width: 52px; height: 52px; }
+  .icon{ width: 24px; height: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .fab{ transition: none; }
+}
