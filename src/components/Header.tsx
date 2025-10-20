@@ -22,15 +22,15 @@ export default function Header() {
             src="/logo.png"
             alt="Logo Vale Net"
             className={styles.logo}
-            width={32}
-            height={32}
+            width={36}
+            height={36}
             priority
           />
           <span className={styles.brandName}>Vale Net</span>
         </Link>
 
         <nav className={styles.nav} aria-label="Principal">
-          {NAV.map(item => (
+          {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
